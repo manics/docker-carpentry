@@ -51,7 +51,8 @@ OMERO.web listens on port 4080 be default, so forward this:
 ~~~
 docker run -d --name my-omeroweb -p 14080:4080 my-omeropy-image
 and you should be able to see OMERO.web in your web browser [http://localhost:14080](http://localhost:14080)
-
+~~~
+{: .source}
 
 ## OMERO.web configuration
 
